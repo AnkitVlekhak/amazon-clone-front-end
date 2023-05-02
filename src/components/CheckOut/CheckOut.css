@@ -1,0 +1,32 @@
+.checkout {
+	display: flex;
+	padding: 20px;
+	flex-direction: row;
+	background-color: white;
+	min-height: 92vh;
+	gap: 2rem;
+}
+.checkout_title {
+	border-bottom: 2px solid lightgray;
+	margin-right: 10px;
+	padding: 10px;
+}
+.checkout_left {
+	display: flex;
+	align-self: flex-start;
+	flex-direction: column;
+	width: 100%;
+	flex: 1;
+	border-bottom: 2px solid lightgray;
+}
+.checkout_right {
+	display: flex;
+	justify-content: center;
+
+	min-width: 320px;
+}
+@media screen and (max-width: 850px) {
+	.checkout {
+		flex-direction: column;
+	}
+}

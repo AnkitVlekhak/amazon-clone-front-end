@@ -1,0 +1,27 @@
+.basketitem {
+	display: flex;
+	flex-direction: row;
+	margin: 20px 0px;
+	border-bottom: 1px solid gray;
+}
+.basketitem_image {
+	object-fit: contain;
+	height: 180px;
+	width: 180px;
+	align-self: center;
+}
+.basketitem_info {
+	display: flex;
+	padding: 20px;
+	flex-direction: column;
+}
+
+.basketitem_title {
+	font-size: 17px;
+	font-weight: 800;
+}
+@media screen and (max-width: 450px) {
+	.basketitem {
+		flex-direction: column;
+	}
+}
